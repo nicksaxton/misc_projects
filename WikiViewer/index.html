@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>WikiViewer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid text-center">
+            <h1 id="title">WikiViewer</h1>
+            <p id="byline">By Nick Saxton</p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Wikipedia" id="search-term">
+            </div>
+            <a class="btn btn-default" id="random_button" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random entry</a>
+            <div class="col-sm-6 col-sm-offset-3 list-group hidden text-left" id="results"></div>
+        </div>
+    </body>
+</html>
