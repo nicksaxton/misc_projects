@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  background-size: cover;
+}
+
+#weather-info {
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 25px 25px 5px 25px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#title {
+  font-size: 72px;
+  letter-spacing: 4px;
+  font-family: Oswald, sans-serif;
+}
+
+#current-temp {
+  font-size: 58px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#condition {
+  margin-bottom: 50px;
+}
+
+#byline {
+  margin-top: 30px;
+  font-size: 10px;
+}
